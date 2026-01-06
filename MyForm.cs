@@ -28,6 +28,8 @@ namespace Illusions
 			frame = 0;
 			screen.Width = W;
 			screen.Height = H;
+			Width = W + 32;
+			Height = H + 64;
 			cellSize = H / CellVerticalCount;
 			bmp = new Bitmap[Frames];
 			// unused for parallel gif encoding
